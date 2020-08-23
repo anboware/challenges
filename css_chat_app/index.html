@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+	<title>Chat app CSS illustration</title>
+	<meta name="author" content="anboware">
+	<link href="./assets/css/style.css" rel="stylesheet">
+	<link rel="icon" href="./assets/images/thumb.png" type="image/png" sizes="32x32">
+</head>
+<body>	
+	<div class="container">
+
+		<div class="bg_left"></div>
+		<div class="bg_right"></div>
+		<div class="phone">
+			<div class="phone_head_top"></div>
+			<div class="phone_head_bottom"></div>
+
+			<div class="image_block">
+				<label for="img_one">
+					<input type="checkbox" id="img_one" aria-label="image one">
+					<img class="img_one" src="./assets/images/dog-image-1.jpg">
+				</label>
+
+				<label for="img_two">
+					<input type="checkbox" id="img_two" aria-label="image two">
+					<img class="img_two" src="./assets/images/dog-image-2.jpg">
+				</label>
+
+				<label for="img_three">
+					<input type="checkbox" id="img_three" aria-label="image three">
+					<img class="img_three" src="./assets/images/dog-image-3.jpg">
+				</label>			
+			</div>
+
+			<div class="messages_left">That sounds great. I&#39;d be happy with that</div>
+			<div class="messages_right">Here are a few pictures. She&#39;s a happy girl</div>
+
+			<div class="option_one">
+				<label for="opt_one">
+					<input type="radio" id="opt_one" name="option" value="0">
+					<div class="option"></div>
+					<span class="options_label">30 minute walk</span>
+					<span class="options_price">£25</span>
+				</label>
+			</div>
+
+			<div class="option_two">
+				<label for="opt_two">
+					<input type="radio" id="opt_two" name="option" value="1">
+					<div class="option"></div>
+					<span class="options_label">1 hour walk</span>
+					<span class="options_price">£40</span>
+				</label>
+			</div>
+
+			<textarea class="message_area" placeholder="Type a message ..." aria-label="message area"></textarea>
+
+			<span class="btn_submit" aria-label="submit message">&#8250;</span>
+		</div>
+
+		<div class="page_content">
+			<h1>Simple booking</h1>
+			<span class="pc_desc">
+				Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.
+			</span>
+		</div>
+
+	</div>
+	
+	<div class="attribution">
+		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> | Coded by <a href="https://anboware.com">anboware</a>
+	</div>
+</body>
+</html>
